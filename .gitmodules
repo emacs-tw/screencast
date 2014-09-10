@@ -1,0 +1,3 @@
+[submodule "anim_encoder"]
+	path = anim_encoder
+	url = https://github.com/sublimehq/anim_encoder
