@@ -2,4 +2,4 @@
 
 # This file work as the autokeyin.py's config file
 
-pause = 3
+pause = 1

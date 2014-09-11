@@ -26,5 +26,5 @@ with open(sys.argv[1], 'r') as command:
         for single in operate:
             os.system("xdotool " + func + " " + single)
             time.sleep(config.pause)
-        os.system('scrot ' + sys.argv[2] + '/' + 
-                  'screen_' + str(index) + '00.png')
+            os.system('scrot ' + sys.argv[2] + '/' + 
+                      'screen_' + str(index) + '00.png')
