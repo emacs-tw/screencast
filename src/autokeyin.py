@@ -2,6 +2,8 @@
 
 import sys
 import os
+import time
+import config
 
 def transform(string):
     if "\"" in string:
@@ -23,5 +25,6 @@ with open(sys.argv[1], 'r') as command:
         print(key)
         for single in operate:
             os.system("xdotool " + func + " " + single)
+            time.sleep(config.pause)
         os.system('scrot ' + sys.argv[2] + '/' + 
                   'screen_' + str(index) + '00.png')
