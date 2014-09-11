@@ -1,0 +1,7 @@
+M-x
+"python-mode"
+Return
+"print('emacs rocks')"
+M-x
+"pyth sen buf"
+Return

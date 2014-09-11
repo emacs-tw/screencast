@@ -26,10 +26,10 @@ C-x C-e
 
 ```
 .
-└── screencast
-    ├── README.md
-    ├── Recipe
-    └── Result
+└ screencast
+   ├ README.md
+   ├ recip
+   └ result
 ```
 
 1. Recipe 放腳本
